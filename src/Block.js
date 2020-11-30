@@ -16,7 +16,7 @@ function Block({ block_id, name, links, menus }) {
             <i class="icon icon-edit"></i>
           </button>
         </div>
-        <div class="block-columns mb-2">
+        <div class="block-columns mb-2 px-2">
           {links.map(linkProp => (
             <Card {...linkProp} key={linkProp.link_id} />
           ))}
