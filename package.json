@@ -18,6 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://sava4.github.io/bookmarks-project/build",
   "eslintConfig": {
     "extends": [
       "react-app",
