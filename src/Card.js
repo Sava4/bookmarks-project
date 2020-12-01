@@ -16,4 +16,7 @@ function Card({ link_id, name, url }) {
   );
 }
 
+// fix URL logic with http:// and without
+// str.includes() ?
+
 export default Card;

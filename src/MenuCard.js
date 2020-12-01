@@ -47,4 +47,7 @@ function MenuCard({ menu_id, name, menu_links }) {
   );
 }
 
+// fix URL logic with http:// and without
+// str.includes() ?
+
 export default MenuCard;

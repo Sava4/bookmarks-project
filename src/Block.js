@@ -16,7 +16,7 @@ function Block({ block_id, name, links, menus }) {
             <i class="icon icon-edit"></i>
           </button>
         </div>
-        <div class="block-columns mb-2 px-2">
+        <div class="block-columns px-2">
           {links.map(linkProp => (
             <Card {...linkProp} key={linkProp.link_id} />
           ))}
@@ -28,7 +28,7 @@ function Block({ block_id, name, links, menus }) {
             </React.Fragment>
           ))}
         </div>
-        <div class="block-footer mb-2 pb-1">
+        <div class="block-footer my-2 py-2">
           <button class="btn btn-primary btn-action s-circle btn-lg">
             <i class="icon icon-plus"></i>
           </button>
